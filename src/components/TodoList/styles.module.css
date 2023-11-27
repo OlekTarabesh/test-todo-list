@@ -1,4 +1,31 @@
 .todo {
+  height: auto;
+  margin: 5px;
   padding: 5px;
-  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.todo:hover {
+  background-color: #efefef;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.editInput {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .todo {
+    height: auto;
+  }
 }

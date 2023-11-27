@@ -1,0 +1,39 @@
+.inputAndButton {
+  margin: 5px;
+  width: 500px;
+  max-width: 500px;
+  height: 40px;
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .inputAndButton {
+    width: 100%;
+  }
+}
+.input {
+  padding: 5px;
+  width: 90%;
+  height: 100%;
+  border: 1px solid;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-right: none;
+}
+
+.inputButton {
+  width: 50px;
+  height: 40px;
+  border: 1px solid;
+  background: #89a1f6;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.fetch {
+  width: 50px;
+  height: 40px;
+  border: 1px solid;
+  background: #89a1f6;
+  border-radius: 10px;
+}

@@ -1,13 +1,13 @@
 import styled from "./styles.module.css";
 
-const Pagination = ({
+export const Pagination = ({
   totalTodos,
   postsPerPage,
   pageToggleHandler,
   currentPage,
 }) => {
   let pages = [];
-
+  // In this 'for' we calculating and pushing all numbers of pages in variable and rendering buttons below.
   for (let i = 1; i <= Math.ceil(totalTodos / postsPerPage); i++) {
     pages.push(i);
   }
@@ -27,5 +27,3 @@ const Pagination = ({
     </div>
   );
 };
-
-export default Pagination;
